@@ -5,6 +5,19 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.glow{
+	transition: all 0.3s ease-in-out;
+}
+.glow:hover{
+box-shadow: 0 0 25px rgb(206, 71, 193) ;
+}
+.img_glow{
+	box-shadow: 0 0 50px rgb(206, 71, 193) ;
+}
+.neno-button{
+	transition: all 0.3s ease-in-out;
+}
 /* *** Global Style goes Here *** */
 /* body {
 	font-family: 'Poppins', sans-serif;

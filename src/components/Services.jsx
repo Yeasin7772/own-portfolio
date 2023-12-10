@@ -3,7 +3,7 @@
 const Services = () => {
     return (
         <div>
-            
+            28min
         </div>
     );
 };

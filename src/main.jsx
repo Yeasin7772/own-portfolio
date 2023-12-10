@@ -5,7 +5,7 @@ import './styles/index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='max-w-7xl mx-auto font-poppins'>
+    <div className='max-w-7xl mx-auto font-poppins bg-slate-900'>
       <App />
     </div>
 
