@@ -35,7 +35,7 @@ const NavBar = () => {
               lg:py-5 px-20 py-4 border-b border-slate-900 ">
                 {/* logo */}
                 <div className="flex items-center flex-1">
-                    <span className="text-3xl font-bold uppercase ">Yeasin</span>
+                    <span className="text-3xl font-bold uppercase text-teal-500">Yeasin</span>
                 </div>
                 {/* content */}
                 <div className="lg:flex md:flex lg:flex-1 items-center justify-end font-normal hidden">

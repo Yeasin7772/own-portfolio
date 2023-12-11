@@ -1,4 +1,5 @@
 //  import pdf from '../../public/Q&A.pdf'
+import { FaDownload } from "react-icons/fa";
 const pdf_download = '/Q&A.pdf'
 const Resume = () => {
     const handleDownload = (url) => {
@@ -26,7 +27,7 @@ const Resume = () => {
         <div>
             {/* <button onClick={() => handleDownload(pdf_download)}>Download PDF</button> */}
             <button onClick={() => handleDownload(pdf_download)}
-                className='font-bold border-2 px-4 py-4 rounded-r-xl rounded-l-xl btn btn-outline btn-success text-black hover:text-white '>Resume Download</button>
+                className='font-bold border-2 px-4 py-4 rounded-r-xl rounded-l-xl btn btn-outline btn-success text-black hover:text-white '>Download Resume <FaDownload/></button>
         </div>
 
     );

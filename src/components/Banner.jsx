@@ -18,24 +18,22 @@ const Banner = () => {
          lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
             <div className="h-full lg:py-40 flex flex-col 
             justify-center lg:items-start items-center text-white">
-                <h2 data-aos="fade-right" className="text-[52px] font-semibold mb-8 leading-normal">WELCOME TO <span className="text-teal-500">MY WEBSITE</span> </h2>
+                <h2 data-aos="fade-right" className="text-[52px] font-semibold mb-8 leading-normal">HI, I'M <span className="text-teal-500 uppercase">Yeasin Molla!</span> </h2>
                 <p data-aos="fade-left"> I'm a dedicated MERN stack developer, transforming ideas into robust web solutions. 
                 Let's build something amazing together!</p>
                 <div className="flex mt-8 gap-2">
                     <div className="flex items-center justify-center">
                         <div className="flex space-x-2">
-                            <a href="" className="text-teal-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                            <a href="https://github.com/Yeasin7772" className="text-teal-600 hover:text-fuchsia-500 rounded-full glow p-2">
                                 <AiFillGithub className="text-[28px]" />
                             </a>
-                            <a href="" className="text-teal-600 hover:text-teal-500 rounded-full glow p-2">
+                            <a href="https://www.linkedin.com/in/yeasin-molla-80a30423b/" className="text-teal-600 hover:text-teal-500 rounded-full glow p-2">
                                 <FaLinkedinIn className="text-[28px]" />
                             </a>
-                            <a href="" className="text-teal-600 hover:text-teal-500 rounded-full glow p-2">
+                            <a href="https://www.facebook.com/yasin.ararfa/" className="text-teal-600 hover:text-teal-500 rounded-full glow p-2">
                                 <FaFacebook className="text-[28px]" />
                             </a>
-                            <a href="" className="text-teal-600 hover:text-teal-500 rounded-full glow p-2">
-                                <FaTwitter className="text-[28px]" />
-                            </a>
+                           
                             <a href="" className="text-teal-600 hover:text-teal-500 rounded-full glow p-2">
                                 <FaInstagram className="text-[28px]" />
                             </a>

@@ -6,6 +6,7 @@ import Footer from './Footer';
 import NavBar from './NavBar';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
+import Services from '../components/Services';
 // import About from '../components/About';
 
 const Main = () => {
@@ -17,6 +18,7 @@ const Main = () => {
             
             <Outlet />
             <Contact/>
+            <Services/>
             <Projects/>
             <Footer />
         </>

@@ -25,22 +25,22 @@ export const ContactForm = () => {
     };
 
     return (
-        <form ref={form} onSubmit={sendEmail} className="max-w-md mx-auto mt-8">
-            <label className="block font-semibold">Name</label>
-            <input type="text" name="user_name" className="mt-1 p-2 w-full border border-gray-300 rounded-md" />
+        <form data-aos="fade-right" ref={form} onSubmit={sendEmail} className="max-w-md mx-auto mt-8 space-y-4">
+            
+            <input required placeholder='Enter Your Name' type="text" name="user_name" className="mt-1 p-2 w-full border-2 border-teal-500  bg-gray-700 rounded-md" />
 
-            <label className="block font-semibold mt-4">Email</label>
-            <input type="email" name="user_email" className="mt-1 p-2 w-full border border-gray-300 rounded-md" />
+            
+            <input  required placeholder='Enter Your Email' type="email" name="user_email" className="mt-1 p-2 w-full border-2 border-teal-500 bg-gray-700 rounded-md" />
 
-            <label className="block font-semibold mt-4">Message</label>
-            <textarea name="message" className="mt-1 p-2 w-full border border-gray-300 rounded-md" />
+          
+            <textarea required placeholder='Enter Your Message.....' name="message" className=" text-white border-2 border-teal-500 mt-1 p-2 h-44 w-full  bg-gray-700 rounded-md" />
 
             <div>
                 <button
                     type="submit"
-                    className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 flex justify-center items-center font-semibold mt-3 gap-x-2"
+                    className="px-4 py-2 btn-primary text-white rounded-md hover:bg-blue-600 flex justify-center items-center font-semibold mt-3 gap-x-2"
                 >
-                    Send <IoMdSend />
+                    Submit Now <IoMdSend />
                 </button>
             </div>
 
