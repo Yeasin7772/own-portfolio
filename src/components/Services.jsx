@@ -3,7 +3,13 @@
 const Services = () => {
     return (
         <div>
-            28min
+            <h1 className=""></h1>
+            <div className="">
+                <h2 className="">Hello</h2>
+                <h2 className=""></h2>
+                <h2 className=""></h2>
+                <h2 className=""></h2>
+            </div>
         </div>
     );
 };
