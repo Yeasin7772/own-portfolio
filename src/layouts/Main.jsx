@@ -4,6 +4,8 @@ import { Outlet } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
 import NavBar from './NavBar';
+import Projects from '../components/Projects';
+import Contact from '../components/Contact';
 // import About from '../components/About';
 
 const Main = () => {
@@ -12,7 +14,10 @@ const Main = () => {
             <NavBar />
             <Header />
             {/* <About/> */}
+            
             <Outlet />
+            <Contact/>
+            <Projects/>
             <Footer />
         </>
     );

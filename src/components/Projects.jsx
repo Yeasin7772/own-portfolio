@@ -5,7 +5,7 @@ import img3 from '../assets/card_brand.png'
 const Projects = () => {
     return (
         <div className='p-20 flex flex-col items-center justify-center'>
-            <h1 data-aos="fade-right" className="text-4xl font-semibold mb-8 leading-normal uppercase text-teal-500">PROJECTS</h1>
+            <h1 data-aos="fade-right" className="text-4xl font-semibold mb-10 leading-normal uppercase text-teal-500">PROJECTS</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 ">
                 <div className="card card-compact shadow-xl rounded-3xl relative overflow-hidden border-2  border-teal-500">
                     <figure className="card-img">

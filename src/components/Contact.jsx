@@ -1,3 +1,4 @@
+import ContactForm from "./ContactForm";
 
 const Contact = () => {
     return (
@@ -17,7 +18,8 @@ const Contact = () => {
 
 
                 <div >
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
+                    <ContactForm/>
+                    {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
                         <div className="form-control ">
                             <label className="label">
                                
@@ -45,7 +47,7 @@ const Contact = () => {
                     </div>
                     <div className="mt-4">
                         <button className="btn btn-outline btn-primary">Submit</button>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

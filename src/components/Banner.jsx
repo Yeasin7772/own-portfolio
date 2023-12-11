@@ -19,9 +19,8 @@ const Banner = () => {
             <div className="h-full lg:py-40 flex flex-col 
             justify-center lg:items-start items-center text-white">
                 <h2 data-aos="fade-right" className="text-[52px] font-semibold mb-8 leading-normal">WELCOME TO <span className="text-teal-500">MY WEBSITE</span> </h2>
-                <p data-aos="fade-left"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptates delectus animi sit repellendus sapiente vel
-                    soluta facilis perspiciatis fuga quaerat!</p>
+                <p data-aos="fade-left"> I'm a dedicated MERN stack developer, transforming ideas into robust web solutions. 
+                Let's build something amazing together!</p>
                 <div className="flex mt-8 gap-2">
                     <div className="flex items-center justify-center">
                         <div className="flex space-x-2">
