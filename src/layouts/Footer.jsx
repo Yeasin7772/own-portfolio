@@ -26,13 +26,13 @@ const Footer = () => {
                 <header className="text-2xl font-semibold mb-8 leading-normal uppercase text-teal-500">FOLLOW ME</header>
                 <div className="grid grid-flow-col gap-4">
                     <div className="flex space-x-2">
-                        <a href="" className="text-teal-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                        <a href="https://github.com/Yeasin7772" className="text-teal-600 hover:text-fuchsia-500 rounded-full glow p-2">
                             <AiFillGithub className="text-[28px]" />
                         </a>
-                        <a href="" className="text-teal-600 hover:text-teal-500 rounded-full glow p-2">
+                        <a href="https://www.linkedin.com/in/yeasin-molla-80a30423b/" className="text-teal-600 hover:text-teal-500 rounded-full glow p-2">
                             <FaLinkedinIn className="text-[28px]" />
                         </a>
-                        <a href="" className="text-teal-600 hover:text-teal-500 rounded-full glow p-2">
+                        <a href="https://www.facebook.com/yasin.ararfa/" className="text-teal-600 hover:text-teal-500 rounded-full glow p-2">
                             <FaFacebook className="text-[28px]" />
                         </a>
                        
