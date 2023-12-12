@@ -1,4 +1,4 @@
-# React Basic Starter: Made by <a href="https://ismailjosim.netlify.app/">MD. JASIM</a>
+# React Basic Starter: Made by <a href="https://splendid-fudge-75b9c3.netlify.app/">MD. Yeasin Molla</a>
 
 ### Packages includes
 
@@ -19,6 +19,6 @@
 
 ## Folder Structure Layout
 
-<img src="https://i.ibb.co/C0zDC3J/React-application-folder-structure-layout.png"/>
+
 
 <h3 style="text-align: center;">⭐⭐⭐ If you like it give star and share it with others ⭐⭐⭐</h3>

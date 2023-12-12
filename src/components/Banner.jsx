@@ -43,7 +43,7 @@ const Banner = () => {
                 </div>
             </div>
             <div>
-                <img data-aos="fade-up" src={profileImage} className=' w-[600px] h-[300px] 
+                <img data-aos="fade-up" src={profileImage} className=' w-[450px] h-[300px] 
                 rounded-full border-2 p-1 border-teal-500 img_glow' alt="Yeasin_molla" />
             </div>
         </div>

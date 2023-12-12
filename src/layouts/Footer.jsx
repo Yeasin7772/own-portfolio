@@ -1,14 +1,13 @@
 import React from 'react';
 import { AiFillGithub } from 'react-icons/ai'
-import { FaFacebook, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedinIn, FaEnvelope } from 'react-icons/fa';
 const Footer = () => {
     return (
 
         <footer className="footer p-10 bg-slate-800  text-white  ">
             <nav >
                 <header className="text-[48px] font-semibold mb-8 leading-normal uppercase text-teal-500">Yeasin</header>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Nulla maiores
-                    voluptate hic quod consectetur voluptates nesciunt. <br />Obcaecati quo ab sapiente.</p>
+                <p>Let's build something amazing together!</p>
             </nav>
             <nav>
                 <header className="text-2xl font-semibold mb-8 leading-normal uppercase text-teal-500">SERVICES</header>
@@ -18,8 +17,8 @@ const Footer = () => {
             </nav>
             <nav>
                 <header className="text-2xl font-semibold mb-8 leading-normal uppercase text-teal-500">CONTACT</header>
-                <a className="link link-hover">Email: youremail.gmail.com</a>
-                <a className="link link-hover">Phone: +1 113-456-7890</a>
+                <a className="link link-hover">  Email: mdyeasinmolla7772@gmail.com</a>
+                <a className="link link-hover">Phone: 01813778326</a>
 
             </nav>
             <nav>

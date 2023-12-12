@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import {FaTimes} from 'react-icons/fa'
 import {CiMenuFries} from 'react-icons/ci'
+import logos from '../assets/logo.png'
 
 const NavBar = () => {
     const [click, setClick] = useState(false)
@@ -35,7 +36,8 @@ const NavBar = () => {
               lg:py-5 px-20 py-4 border-b border-slate-900 ">
                 {/* logo */}
                 <div className="flex items-center flex-1">
-                    <span className="text-3xl font-bold uppercase text-teal-500">Yeasin</span>
+                   <img className="w-20 h-10" src={logos} alt="" />
+                   <h1 className="text-3xl font-bold ml-2 uppercase text-teal-500">Yeasin</h1>
                 </div>
                 {/* content */}
                 <div className="lg:flex md:flex lg:flex-1 items-center justify-end font-normal hidden">

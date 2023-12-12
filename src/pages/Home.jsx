@@ -1,15 +1,19 @@
 import React from 'react';
-import About from '../components/About';
+import Projects from '../components/Projects';
 import Contact from '../components/Contact';
 import Services from '../components/Services';
-import Projects from '../components/Projects';
+import Header from '../layouts/Header';
+import About from '../components/About';
+
+
 
 const Home = () => {
   return (
     <div>
-      <About />
+      <Header />
+      <About/>
       <Contact />
-      {/* <Services/> */}
+      <Services />
       <Projects />
     </div>
   );
